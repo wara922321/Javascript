@@ -1,0 +1,40 @@
+body{
+  font-size: 14px;
+  background: #eee;
+}
+
+.container{
+  margin:20px auto;
+  padding:5px 40px 40px 5px;
+  width:300px;
+  background: #fff;
+  border:10px solid #ddd ;
+}
+
+#timer{
+  height:120px;
+  line-height: 120px;
+  font-size: 40px;
+  margin-bottom:15px;
+}
+
+.btn{
+  width:80px;
+  height:45px;
+  line-height: 45px;
+  background: #ddd;
+  font-weight: bold;
+  user-select:none;
+  border:1px solid #000;
+  border-radius:3px;
+  text-align:center;
+  margin-right:10px;
+}
+
+.controls{
+  display:flex;
+}
+
+.inactive{
+  opacity:0.6;
+}
